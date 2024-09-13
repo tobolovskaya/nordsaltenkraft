@@ -129,7 +129,7 @@
 
   .page-header-socials-link:hover,
   .page-header-socials-link:focus {
-    fill: var(--ocean);
+    fill: var(--iris);
     border-color: rgba(77, 194, 116, 0.1);
   }
 }

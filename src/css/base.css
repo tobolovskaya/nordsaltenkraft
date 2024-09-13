@@ -1,6 +1,10 @@
 :root {
   --primary-font: 'Manrope', sans-serif;
   --black: #121417;
+  --iris: #0070b8;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --green: #4dc274;
   --gradient-green: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
   --light-green: #d4fde1;
@@ -131,7 +135,7 @@ a {
   bottom: -4px;
   width: 50%;
   height: 2px;
-  background-color: var(--green);
+  background-color: var(--iris);
   opacity: 0;
   transform: scaleX(0);
   transform-origin: left;
