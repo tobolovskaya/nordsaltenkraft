@@ -11,17 +11,6 @@
   flex-direction: row;
 }
 
-.logo-link {
-  color: var(--black);
-  font-size: 20px;
-  line-height: normal;
-  font-weight: 700;
-}
-
-.logo-link-color {
-  color: var(--green);
-}
-
 .mobile-menu-btn-icon {
   stroke: var(--black);
 }
