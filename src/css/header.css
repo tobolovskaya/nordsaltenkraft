@@ -81,6 +81,12 @@
     gap: 137px;
   }
 
+  .logo {
+    display: flex;
+    width: 200px;
+    height: auto;
+  }
+
   .page-nav-list {
     display: flex;
     align-items: center;
@@ -123,7 +129,7 @@
 
   .page-header-socials-link:hover,
   .page-header-socials-link:focus {
-    fill: var(--green);
+    fill: var(--ocean);
     border-color: rgba(77, 194, 116, 0.1);
   }
 }
