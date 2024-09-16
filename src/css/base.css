@@ -8,7 +8,7 @@
   --green: #4dc274;
   --gradient-green: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
   --light-green: #d4fde1;
-  --lighter-green: #bee8cc;
+  --lighter-iris: #77accc;
   --gray: #f3f5f6;
   --white: #fff;
   --hover-green: #38ae5f;
@@ -100,7 +100,7 @@ a {
   font-weight: 700;
   line-height: 1.7;
   color: var(--white);
-  background-color: var(--green);
+  background-color: var(--iris);
   border-radius: 12px;
   padding: 14px 32px;
   border: none;

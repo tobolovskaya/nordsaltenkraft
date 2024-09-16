@@ -2,6 +2,15 @@
 .hero-content {
   padding: 425px 14px 14px 20px;
   align-items: start;
+  ul {
+    list-style-type: inherit;
+    padding-left: 15px;
+  }
+  ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 .hero-section {
@@ -32,12 +41,12 @@
   font-family: inherit;
   font-size: 38px;
   line-height: 1.05;
-  color: var(--white);
+  color: var(--black);
   max-width: 295px;
 }
 
 .hero-english {
-  color: var(--lighter-green);
+  color: var(--iris);
 }
 
 .hero-button {
@@ -54,7 +63,7 @@
 }
 
 .hero-use {
-  fill: var(--green);
+  fill: var(--iris);
 }
 
 .hero-checkmark {
@@ -78,7 +87,7 @@
 
 .hero-checkmark-container:hover,
 .hero-checkmark-container:focus {
-  background-color: var(--green);
+  background-color: var(--iris);
 }
 
 .hero-checkmark-container:hover .hero-use,

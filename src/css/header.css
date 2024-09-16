@@ -6,6 +6,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--white);
   flex-direction: row;
@@ -133,3 +134,38 @@
     border-color: rgba(77, 194, 116, 0.1);
   }
 }
+
+.social-main {
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  align-content: center;
+}
+
+.social-wrapper {
+  width: 40px;
+  height: 40px;
+}
+
+.social-wrapper a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: var(--iris);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.social-wrapper a:hover,
+.social-wrapper a:focus {
+
+  background-color: var(--black);
+  border-color: var(--black);
+  transition-property: background-color, color;
+  transition: var(--trns-fast);
+  cursor: pointer;
+}
+
