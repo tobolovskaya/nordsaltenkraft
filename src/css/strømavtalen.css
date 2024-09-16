@@ -9,13 +9,13 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  border: 1px solid var(--green);
+  border: 1px solid var(--iris);
   border-radius: 16px;
   transition: background-color 250ms var(--common-transition);
 }
 
 .lesson-item:hover {
-  background-color: var(--green);
+  background-color: var(--iris);
 }
 
 .lesson-item-title {
@@ -61,7 +61,7 @@
 
 .lesson-item:hover .lesson-button {
   background-color: var(--white);
-  color: var(--green);
+  color: var(--iris);
 }
 
 .lesson-button {
@@ -71,7 +71,7 @@
   width: 100%;
   margin-top: auto;
   height: 52px;
-  border: 1px solid var(--green);
+  border: 1px solid var(--iris);
   transition: 250ms var(--common-transition);
   transition-property: background-color, border-color;
 }
@@ -90,7 +90,7 @@
 }
 
 .active-item {
-  background-color: var(--green);
+  background-color: var(--iris);
   color: var(--white);
 }
 
