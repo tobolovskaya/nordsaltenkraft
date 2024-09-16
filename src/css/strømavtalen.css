@@ -47,6 +47,7 @@
 .lesson-item-text {
   transition: 250ms var(--common-transition);
   transition-property: opacity, color;
+  text-align: center;
 }
 
 .lesson-item:hover .lesson-item-price,
