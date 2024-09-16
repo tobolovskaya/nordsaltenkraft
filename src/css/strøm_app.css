@@ -14,7 +14,7 @@
 }
 
 .hero-section {
-  background-image: url(../img/hero/block_mob@1x.jpg),
+  background-image: url(../img/strøm_app/block_mob@1x.jpg),
     linear-gradient(
       95.97deg,
       rgba(0, 0, 0, 0.4) 36.36%,
@@ -30,7 +30,7 @@
 
 @media (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(../img/hero/block_mob@2x.jpg),
+    background-image: url(../img/strøm_app/block_mob@2x.jpg),
       linear-gradient(
         95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -100,7 +100,7 @@
 /* For tablets */
 @media (min-width: 768px) and (max-width: 1280px) {
   .hero-section {
-    background-image: url(../img/hero/block_tab@1x.jpg),
+    background-image: url(../img/strøm_app/block_tab@1x.jpg),
       linear-gradient(
         95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -141,7 +141,7 @@
 
 @media (min-width: 768px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(../img/hero/block_tab@2x.jpg),
+    background-image: url(../img/strøm_app/block_tab@2x.jpg),
       linear-gradient(
         95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -153,7 +153,7 @@
 /* For desktop */
 @media (min-width: 1280px) {
   .hero-section {
-    background-image: url(../img/hero/block_desk@1x.jpg),
+    background-image: url(../img/strøm_app/block_desk@1x.jpg),
       linear-gradient(
         95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
@@ -194,7 +194,7 @@
 
 @media (min-width: 1280px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(../img/hero/block_desk@2x.jpg),
+    background-image: url(../img/strøm_app/block_desk@2x.jpg),
       linear-gradient(
         95.97deg,
         rgba(0, 0, 0, 0.4) 36.36%,
