@@ -1,7 +1,7 @@
 .lessons-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .lesson-item {
@@ -43,11 +43,15 @@
 }
 
 .lesson-item-price,
-.lesson-item-title,
-.lesson-item-text {
+.lesson-item-title {
   transition: 250ms var(--common-transition);
   transition-property: opacity, color;
   text-align: center;
+}
+
+.lesson-item-text {
+  transition: 250ms var(--common-transition);
+  transition-property: opacity, color;
 }
 
 .lesson-item:hover .lesson-item-price,

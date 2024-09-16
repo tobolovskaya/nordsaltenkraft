@@ -96,8 +96,9 @@ img {
 .section-subtitle {
   font-size: 14px;
   line-height: 1.7;
-  opacity: 0.5;
+  opacity: 0.8;
   margin-bottom: 40px;
+  margin-top: 10px;
   max-width: 665px;
   text-align: center;
 }
