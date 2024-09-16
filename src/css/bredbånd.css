@@ -124,6 +124,7 @@
     border-radius: 30px;
     margin: 16px auto 96px;
     max-width: 1152px;
+    justify-content: space-between;
   }
 
   .bredbånd-content {
