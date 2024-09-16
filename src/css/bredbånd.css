@@ -21,6 +21,7 @@
   border-radius: 16px;
   margin: 8px auto 80px;
   max-width: 335px;
+  flex-direction: column;
 }
 
 .bredbånd-text {
@@ -91,6 +92,7 @@
     border-radius: 30px;
     margin: 32px auto 100px;
     max-width: 704px;
+    flex-direction: column;
   }
 
    .bredbånd-content {
@@ -130,7 +132,7 @@
   }
 
   .bredbånd-content {
-    padding: 20px;
+    padding: 20px 32px 32px 32px;
   }
 
   .bredbånd-button {
