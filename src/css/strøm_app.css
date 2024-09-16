@@ -1,6 +1,6 @@
 /* For mobile devices */
 .hero-content {
-  padding: 425px 14px 14px 20px;
+  padding: 400px 14px 14px 20px;
   align-items: start;
   ul {
     list-style-type: inherit;
@@ -168,7 +168,7 @@
   }
 
   .hero-content {
-    padding: 164px 32px 32px 64px;
+    padding: 140px 32px 32px 64px;
   }
 
   .hero-button {
