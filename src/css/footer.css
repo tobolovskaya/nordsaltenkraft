@@ -7,7 +7,7 @@
 
 footer {
   padding: 40px 0 20px;
-  background-color: var(--black);
+  background: linear-gradient(to bottom, white, #0070b8 ) ;
 }
 
 .footer-container {
