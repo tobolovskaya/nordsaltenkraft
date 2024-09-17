@@ -13,30 +13,19 @@
   border-radius: 16px;
   background-color: var(--gray);
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: var(--black);
   counter-increment: custom-counter;
 }
 
-.about-item::before {
-  content: '0' counter(custom-counter);
+.about-text {
   display: block;
   margin-bottom: 16px;
   font-size: 28px;
   line-height: 1.14;
-  color: var(--green);
-}
-
-.about-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 313px;
-  margin: 20px 0 0;
-  border-radius: 16px;
-  background-color: var(--green);
+  color: var(--iris);
 }
 
 @media screen and (min-width: 768px) {
@@ -80,11 +69,5 @@
 
   .about-list {
     flex: 1;
-  }
-
-  .about-img {
-    width: 310px;
-    height: auto;
-    margin-top: 0;
   }
 }
