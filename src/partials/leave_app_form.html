@@ -2,20 +2,19 @@
 <section id="application-form" class="section leave-form">
   <div class="container">
     <h2 class="section-title section-app-title">
-      Leave an <span>application</span>
+      Kundeservice kraftsalg</span>
     </h2>
     <p class="section-subtitle subtitle-application-form">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
+      Vi hjelper deg med spørsmål vedrørende strømprodukter og tilhørende faktura, adresseforandring, melding av inn/utflytting, måleravlesing og så videre.
     </p>
     <div class="app-form-container">
       <div class="app-thumb">
         <div class="app-textbox">
-          <h3 class="app-name">1000</h3>
+          <h3 class="app-name">Telefon: 75 77 10 30</h3>
           <p class="app-desc">
-            of our online English language lessons! This journey has been full
-            of discovery, growth and unforgettable moments, and we are happy to
-            share this joyful event with you.
+            Åpningstid: kl 08.00 - 15.00<br>
+            E-post: kundeservice@nordsaltenkraft.no<br>
+            Du kan også benytte skjemaet ved siden.
           </p>
         </div>
       </div>
@@ -27,7 +26,7 @@
             type="text"
             name="user-name"
             id="user-name"
-            placeholder="Name"
+            placeholder="Navn"
             required
           />
         </div>
@@ -38,7 +37,7 @@
             type="email"
             name="user-email"
             id="user-email"
-            placeholder="Email"
+            placeholder="E-post"
             pattern="^[\w\.-]+@[\w\.-]+\.\w+$"
             required
           />
@@ -50,10 +49,22 @@
             type="tel"
             name="user-phone"
             id="user-phone"
-            placeholder="Phone"
+            placeholder="Telefon"
             pattern="^0\d{9}$"
             required
           />
+        </div>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-phone"></label>
+            <input
+              class="form-input"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder="Kundenummer"
+              pattern="^0\d{9}$"
+              required
+            />
         </div>
         <div class="form-comment-wrapper">
           <label class="form-label" for="user-comment"></label>
@@ -61,54 +72,10 @@
             class="form-textarea"
             name="user-comment"
             rows="5"
-            placeholder="Comment"
+            placeholder="Din henvendelse"
             id="user-comment"
           ></textarea>
         </div>
-        <fieldset class="form-radio-group">
-          <legend class="form-radio-group-title">Choose a teacher</legend>
-          <div class="form-radio">
-            <input
-              class="form-radio-input"
-              type="radio"
-              name="teacher"
-              value="maria"
-              id="radio-Maria"
-              checked
-            />
-            <label class="form-radio-label" for="radio-Maria">Maria</label>
-          </div>
-          <div class="form-radio">
-            <input
-              class="form-radio-input"
-              type="radio"
-              name="teacher"
-              value="artem"
-              id="radio-Artem"
-            />
-            <label class="form-radio-label" for="radio-Artem">Artem</label>
-          </div>
-          <div class="form-radio">
-            <input
-              class="form-radio-input"
-              type="radio"
-              name="teacher"
-              value="ilona"
-              id="radio-Ilona"
-            />
-            <label class="form-radio-label" for="radio-Ilona">Ilona</label>
-          </div>
-          <div class="form-radio">
-            <input
-              class="form-radio-input"
-              type="radio"
-              name="teacher"
-              value="volodymyr"
-              id="radio-input"
-            />
-            <label class="form-radio-label" for="radio-input">Volodymyr</label>
-          </div>
-        </fieldset>
         <button class="form-button button btn" type="submit">Send</button>
         <p class="agreement-text">
           By clicking on “Send” button, you agree to our
