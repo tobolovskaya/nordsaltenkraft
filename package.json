@@ -18,5 +18,9 @@
     "vite-plugin-html-inject": "^1.1.2"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
+
