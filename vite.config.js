@@ -4,6 +4,7 @@ import injectHTML from 'vite-plugin-html-inject';
 
 export default defineConfig(({ command }) => {
   return {
+    base: "/nordsaltenkraft/",
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
@@ -22,7 +23,7 @@ export default defineConfig(({ command }) => {
         },
       },
       outDir: '../dist',
-    },
+    },    
     plugins: [injectHTML()],
   };
 });
