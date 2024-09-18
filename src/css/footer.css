@@ -41,7 +41,7 @@ footer {
 
 .footer-adr {
   display: flex;
-  color: var(--white);
+  color: var(--black);
   font-family: var(--primary-font);
   font-size: 14px;
   font-style: normal;
