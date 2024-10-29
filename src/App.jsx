@@ -5,6 +5,7 @@ import Strømavtalen from './components/Strømavtalen/Strømavtalen'
 import Bredbånd from './components/Bredbånd/Bredbånd'
 import Kraftproduksjon from './components/Kraftproduksjon/Kraftproduksjon'
 import LeaveAppForm from './components/LeaveAppForm/LeaveAppForm'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Bredbånd />
       <Kraftproduksjon />
       <LeaveAppForm />
+      <Footer />
       
     </div>
   );
