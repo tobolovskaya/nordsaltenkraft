@@ -1,0 +1,146 @@
+.lessonsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lessonItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  border: 1px solid var(--iris);
+  border-radius: 16px;
+  transition: background-color 250ms var(--common-transition);
+}
+
+.lessonItem:hover {
+  background-color: var(--iris);
+}
+
+.lessonItemTitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -0.4px;
+}
+
+.lessonItemPrice {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.37;
+  margin-bottom: 40px;
+}
+
+.lessonItemText {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: var(--black);
+  opacity: 0.5;
+  text-align: center;
+}
+
+.lessonItemPrice,
+.lessonItemTitle {
+  transition: 250ms var(--common-transition);
+  transition-property: opacity, color;
+  text-align: center;
+}
+
+.lessonItemText {
+  transition: 250ms var(--common-transition);
+  transition-property: opacity, color;
+}
+
+.lessonItem:hover .lessonItemPrice,
+.lessonItem:hover .lessonItemTitle {
+  color: var(--white);
+}
+
+.lessonItem:hover .lessonItemText {
+  color: var(--white);
+  opacity: 0.7;
+}
+
+.lessonItem:hover .lessonButton {
+  background-color: var(--white);
+  color: var(--iris);
+}
+
+.lessonButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  height: 52px;
+  border: 1px solid var(--iris);
+  transition: 250ms var(--common-transition);
+  transition-property: background-color, border-color;
+}
+
+.lessonButton.active {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  transition: 250ms var(--common-transition);
+  transition-property: color, background-color;
+}
+
+.lessonButton.active:hover,
+.lessonButton.active:focus {
+  background-color: var(--white);
+  color: var(--iris);
+}
+
+.activeItem {
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.activeItem .lessonItemText {
+  color: var(--white);
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  .lessonsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .lessonItem {
+    flex-basis: calc((100% - 32px) / 2);
+    padding: 32px 16px;
+  }
+
+  .lessonItemPrice {
+    margin-bottom: 32px;
+  }
+
+  .lessonItemText {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    color: var(--black);
+    opacity: 0.5;
+    text-align: center;
+  }
+
+  .lessonButton {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lessonItemPrice {
+    margin-bottom: 16px;
+  }
+
+  .lessonItem {
+    flex-basis: calc((100% - 64px) / 3);
+  }
+}
