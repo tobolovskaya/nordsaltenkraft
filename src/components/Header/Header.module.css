@@ -1,5 +1,6 @@
 .headersection {
   margin-bottom: 8px;
+  justify-items: center;
 }
 
 .headercontainer {
@@ -79,7 +80,6 @@
   .pagenavigation {
     display: flex;
     align-items: center;
-    gap: 137px;
   }
 
   .logo {
@@ -92,6 +92,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
     gap: 20px;
   }
 
@@ -143,6 +144,7 @@
   display: flex;
   gap: 10px;
   align-content: center;
+  list-style: none;
 }
 
 .socialwrapper {
