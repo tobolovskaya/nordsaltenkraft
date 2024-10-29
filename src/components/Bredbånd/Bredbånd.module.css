@@ -1,0 +1,187 @@
+.bredbåndKraft {
+  color: var(--iris);
+}
+
+.bredbåndList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.bredbåndItemTitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.bredbåndItemText {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--form-agreement-text);
+  text-align: center;
+}
+
+.bredbåndTextBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  width: 335px;
+}
+
+@media only screen and (max-width: 374px) {
+  .bredbåndTextBox {
+    width: 100%;
+  }
+}
+
+.bredbåndItem {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .subtitleBredbånd {
+    max-width: 709px;
+  }
+
+  .bredbåndList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 32px;
+    justify-content: center;
+  }
+
+  .bredbåndTextBox {
+    width: 232px;
+  }
+
+  .bredbåndItemText {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bredbåndList {
+    flex-wrap: nowrap;
+    gap: 32px;
+    justify-content: normal;
+  }
+}
+
+.bredbåndImg {
+  border-radius: 50%;
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .bredbåndSection {
+    background-color: var(--white);
+    max-width: 335px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+
+  .bredbåndContent {
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .bredbåndButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 295px;
+    width: 100%;
+  }
+
+  .bredbåndContentImage {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .bredbåndImage {
+    border-radius: 400px 400px 0 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bredbåndSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    max-width: 704px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .bredbåndContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .bredbåndContentImage {
+    flex: 1;
+    max-width: 100%;
+    padding: 15px;
+    text-align: right;
+  }
+
+  .bredbåndImage {
+    border-radius: 400px 400px 0 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For desktop */
+@media (min-width: 1280px) {
+  .bredbåndSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    max-width: 1152px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .bredbåndContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bredbåndContentImage {
+    flex: 1;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-align: right;
+  }
+
+  .bredbåndImage {
+    border-radius: 300px 300px 0 0;
+    width: 75%;
+    height: auto;
+  }
+}
