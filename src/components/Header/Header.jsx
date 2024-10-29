@@ -8,7 +8,7 @@ function Header() {
         <nav className={styles['page-navigation']}>
           <a href="#strøm_app">
             <img
-              src="../../img/header/logo-nordsaltenkraft.jpg"
+              src="/src/img/header/logo-nordsaltenkraft.jpg"
               className={styles.logo}
               alt="Logo"
             />
@@ -56,21 +56,21 @@ function Header() {
           <li className={styles['social-wrapper']}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="../../img/icons.svg#icon-instagram"></use>
+                <use href="/src/img/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li className={styles['social-wrapper']}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="../../img/icons.svg#icon-facebook"></use>
+                <use href="/src/img/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li className={styles['social-wrapper']}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="../../img/icons.svg#icon-linkedin"></use>
+                <use href="/src/img/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
           </li>
@@ -87,14 +87,14 @@ function Header() {
             width="32"
             height="23"
           >
-            <use href="../../img/icons.svg#icon-nav"></use>
+            <use href="/src/img/icons.svg#icon-nav"></use>
           </svg>
           <svg
             className={`${styles['mobile-menu-btn-icon']} ${styles.tablet}`}
             width="40"
             height="28"
           >
-            <use href="../../img/icons.svg#icon-nav_bold"></use>
+            <use href="/src/img/icons.svg#icon-nav_bold"></use>
           </svg>
         </button>
       </div>
