@@ -1,0 +1,209 @@
+.appFormContainer {
+  display: flex;
+}
+
+@media only screen and (max-width: 374px) {
+  .appFormContainer {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .formButtonBtn {
+    width: 252px;
+    padding: 0;
+  }
+
+  .sectionAppTitle {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .appFormContainer {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sectionAppTitle {
+    margin-bottom: 14px;
+  }
+}
+
+/* App thumb */
+@media only screen and (max-width: 1279px) {
+  .appThumb {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .appThumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 492px;
+    height: 578px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 20px 40px;
+    background-color: var(--iris);
+    background-image: url(../img/leave_an_app/girl@1x.png);
+    background-repeat: no-repeat;
+    background-size: 492px;
+    background-position: top;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .appThumb {
+    background-image: url(../img/leave_an_app/girl@2x.png);
+  }
+}
+
+.appTextbox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.appName {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.appDesc {
+  text-align: center;
+  color: var(--form-app-text);
+}
+
+@media only screen and (max-width: 767px) {
+  .subtitleApplicationForm {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .subtitleApplicationForm {
+    max-width: 586px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .subtitleApplicationForm {
+    max-width: 709px;
+  }
+}
+
+/* Form fields */
+.formWrapper {
+  margin-bottom: 18px;
+}
+
+.formInput {
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--form-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  outline: transparent;
+  transition: border-color 250ms var(--common-transition);
+}
+
+@media only screen and (min-width: 768px) {
+  .formInput {
+    font-size: 16px;
+    min-width: 500px;
+    height: 56px;
+  }
+}
+
+.formInput:focus,
+.formTextarea:focus {
+  border-color: var(--iris);
+}
+
+.formInput::placeholder,
+.formTextarea::placeholder {
+  color: var(--black);
+}
+
+.formCommentWrapper {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .formCommentWrapper {
+    max-width: 500px;
+    margin-bottom: 32px;
+  }
+}
+
+.formTextarea {
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 16px 18px;
+  height: 94px;
+  border: 1px solid var(--form-border);
+  border-radius: 12px;
+  resize: none;
+  outline: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .formTextarea {
+    font-size: 16px;
+    min-width: 500px;
+    height: 104px;
+  }
+}
+
+.formButton {
+  width: 335px;
+  height: 52px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white);
+  padding: 14px 150px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  background-color: var(--black);
+  border-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .formButton {
+    min-width: 500px;
+    height: 60px;
+    font-size: 18px;
+    padding: 16px 228px;
+  }
+}
+
+/* Agreement text */
+.agreementText {
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--form-agreement-text);
+}
+
+@media screen and (min-width: 768px) {
+  .agreementText {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--form-agreement-text);
+    width: 500px;
+  }
+}
+
+.formAgreementLink {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: inherit;
+}
