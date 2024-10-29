@@ -8,7 +8,7 @@ const Header = () => {
         <nav className={styles.pagenavigation}>
           <a href="#strøm_app">
             <img
-              src="/src/img/header/logo-nordsaltenkraft.jpg"
+              src="/img/header/logo-nordsaltenkraft.jpg"
               className={styles.logo}
               alt="Logo"
             />
@@ -56,21 +56,21 @@ const Header = () => {
           <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="/src/img/icons.svg#icon-instagram"></use>
+                <use href="/img/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="/src/img/icons.svg#icon-facebook"></use>
+                <use href="/img/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
-                <use href="/src/img/icons.svg#icon-linkedin"></use>
+                <use href="/img/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
           </li>
@@ -87,14 +87,14 @@ const Header = () => {
             width="32"
             height="23"
           >
-            <use href="/src/img/icons.svg#icon-nav"></use>
+            <use href="/img/icons.svg#icon-nav"></use>
           </svg>
           <svg
             className={`${styles.mobilemenubtnicon} ${styles.tablet}`}
             width="40"
             height="28"
           >
-            <use href="/src/img/icons.svg#icon-nav_bold"></use>
+            <use href="/img/icons.svg#icon-nav_bold"></use>
           </svg>
         </button>
       </div>
