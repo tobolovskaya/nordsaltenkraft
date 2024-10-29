@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Header.module.css';
 
-function Header() {
+const Header = () => {
   return (
-    <header className={styles['header-section']}>
-      <div className={styles['header-container']}>
-        <nav className={styles['page-navigation']}>
+    <header className={styles.headersection}>
+      <div className={styles.headercontainer}>
+        <nav className={styles.pagenavigation}>
           <a href="#strøm_app">
             <img
               src="/src/img/header/logo-nordsaltenkraft.jpg"
@@ -13,38 +13,38 @@ function Header() {
               alt="Logo"
             />
           </a>
-          <ul className={`${styles['page-nav-list']} ${styles.list}`}>
-            <li className={styles['page-nav-list-item']}>
+          <ul className={`${styles.pagenavlist} ${styles.list}`}>
+            <li className={styles.pagenavlistitem}>
               <a
                 href="#strømavtalen"
-                className={`${styles['page-nav-list-link']} ${styles['link-underlined']}`}
+                className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section strømavtalen"
               >
                 Bestill strøm
               </a>
             </li>
-            <li className={styles['page-nav-list-item']}>
+            <li className={styles.pagenavlistitem}>
               <a
                 href="#bredbånd"
-                className={`${styles['page-nav-list-link']} ${styles['link-underlined']}`}
+                className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section bredbånd"
               >
                 Bredbånd
               </a>
             </li>
-            <li className={styles['page-nav-list-item']}>
+            <li className={styles.pagenavlistitem}>
               <a
                 href="#kraftproduksjon"
-                className={`${styles['page-nav-list-link']} ${styles['link-underlined']}`}
+                className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section kraftproduksjon"
               >
                 Kraftproduksjon
               </a>
             </li>
-            <li className={styles['page-nav-list-item']}>
+            <li className={styles.pagenavlistitem}>
               <a
                 href="#application-form"
-                className={`${styles['page-nav-list-link']} ${styles['link-underlined']}`}
+                className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section contact us"
               >
                 Kontakt oss
@@ -52,22 +52,22 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <ul className={styles['social-main']}>
-          <li className={styles['social-wrapper']}>
+        <ul className={styles.socialmain}>
+          <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
                 <use href="/src/img/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li className={styles['social-wrapper']}>
+          <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
                 <use href="/src/img/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li className={styles['social-wrapper']}>
+          <li className={styles.socialwrapper}>
             <a href="#">
               <svg height="16" width="16">
                 <use href="/src/img/icons.svg#icon-linkedin"></use>
@@ -76,21 +76,21 @@ function Header() {
           </li>
         </ul>
         <button
-          className={styles['burger-btn']}
+          className={styles.burgerbtn}
           type="button"
           aria-expanded="false"
           aria-controls="mobile-menu"
           aria-label="open menu"
         >
           <svg
-            className={`${styles['mobile-menu-btn-icon']} ${styles.mobile}`}
+            className={`${styles.mobilemenubtnicon} ${styles.mobile}`}
             width="32"
             height="23"
           >
             <use href="/src/img/icons.svg#icon-nav"></use>
           </svg>
           <svg
-            className={`${styles['mobile-menu-btn-icon']} ${styles.tablet}`}
+            className={`${styles.mobilemenubtnicon} ${styles.tablet}`}
             width="40"
             height="28"
           >

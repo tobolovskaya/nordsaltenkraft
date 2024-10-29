@@ -1,8 +1,8 @@
-.header-section {
+.headersection {
   margin-bottom: 8px;
 }
 
-.header-container {
+.headercontainer {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
@@ -12,11 +12,11 @@
   flex-direction: row;
 }
 
-.mobile-menu-btn-icon {
+.mobilemenubtnicon {
   stroke: var(--black);
 }
 
-.burger-btn {
+.burgerbtn {
   padding: 0;
   background-color: transparent;
   margin-left: auto;
@@ -41,42 +41,42 @@
     display: block;
   }
 
-  .header-section {
+  .headersection {
     margin-bottom: 32px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 1279px) {
-  .page-nav-list {
+  .pagenavlist {
     display: none;
   }
 
-  .page-header-socials {
+  .pageheadersocials {
     display: none;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .header-container {
+  .headercontainer {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .header-container {
+  .headercontainer {
     max-width: 1152px;
     padding: 20px 64px;
   }
 
-  .header-section {
+  .headersection {
     margin-bottom: 16px;
   }
 
-  .burger-btn {
+  .burgerbtn {
     display: none;
   }
 
-  .page-navigation {
+  .pagenavigation {
     display: flex;
     align-items: center;
     gap: 137px;
@@ -88,24 +88,24 @@
     height: auto;
   }
 
-  .page-nav-list {
+  .pagenavlist {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
 
-  .page-header-socials {
+  .pageheadersocials {
     margin-left: auto;
   }
 
-  .page-header-socials-list {
+  .pageheadersocialslist {
     display: flex;
     align-items: center;
     gap: 12px;
   }
 
-  .page-nav-list-link {
+  .pagenavlistlink {
     color: var(--black);
     font-weight: 600;
     line-height: 1.29;
@@ -113,13 +113,13 @@
     font-size: 14px;
   }
 
-  .page-header-socials-list-items {
+  .pageheadersocialslistitems {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .page-header-socials-link {
+  .pageheadersocialslink {
     padding: 7px;
     fill: var(--black);
     line-height: 0;
@@ -129,14 +129,14 @@
     transition-property: fill, border-color;
   }
 
-  .page-header-socials-link:hover,
-  .page-header-socials-link:focus {
+  .pageheadersocialslink:hover,
+  .pageheadersocialslink:focus {
     fill: var(--iris);
     border-color: rgba(77, 194, 116, 0.1);
   }
 }
 
-.social-main {
+.socialmain {
   margin-top: 5px;
   align-items: center;
   justify-content: center;
@@ -145,12 +145,12 @@
   align-content: center;
 }
 
-.social-wrapper {
+.socialwrapper {
   width: 40px;
   height: 40px;
 }
 
-.social-wrapper a {
+.socialwrapper a {
   width: 100%;
   height: 100%;
   display: flex;
@@ -160,8 +160,8 @@
   border-radius: 50%;
 }
 
-.social-wrapper a:hover,
-.social-wrapper a:focus {
+.socialwrapper a:hover,
+.socialwrapper a:focus {
   background-color: var(--black);
   border-color: var(--black);
   transition-property: background-color, color;
