@@ -3,18 +3,18 @@ import styles from './Strømavtalen.module.css';
 
 const Strømavtalen = () => {
   return (
-    <section id="strømavtalen" className={`${styles.section} ${styles.lessonSection}`}>
+    <section id="strømavtalen" className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>
+        <h2 className={styles.sectiontitle}>
           Bestill <span>strømavtalen</span>
         </h2>
         <p className={styles.sectionSubtitle}>
           Nord-Salten Kraft AS er kjent for å være en seriøs, solid, stabil og
           konkurransedyktig leverandør av fornybar energi.
         </p>
-        <ul className={styles.lessonsList}>
-          <li className={styles.lessonItem}>
-            <h3 className={styles.lessonItemTitle}>Lokalkraft</h3>
+        <ul className={styles.sectionList}>
+          <li className={styles.sectionItem}>
+            <h3 className={styles.sectionItemTitle}>Lokalkraft</h3>
             <h4 className={styles.lessonItemPrice}>
               Prisen beregnes etterskuddsvis hver måned basert på gjennomsnittlig
               spotpris
@@ -27,8 +27,8 @@ const Strømavtalen = () => {
             <p className={styles.lessonItemText}>eFaktura 0 kr / papirfaktura 9,75 kr</p>
             <a href="#application-form" className={`${styles.button} ${styles.lessonButton}`}>Bestill nå</a>
           </li>
-          <li className={`${styles.lessonItem} ${styles.activeItem}`}>
-            <h3 className={styles.lessonItemTitle}>Spotpris</h3>
+          <li className={`${styles.sectionItem} ${styles.activeItem}`}>
+            <h3 className={styles.sectionItemTitle}>Spotpris</h3>
             <h4 className={styles.lessonItemPrice}>Spotpris Nordpool +3,99 øre/kWh</h4>
             <p className={styles.lessonItemText}>
               Spot er avtalen for deg som ønsker å følge strømprisen i
@@ -43,8 +43,8 @@ const Strømavtalen = () => {
             </p>
             <a href="#application-form" className={`${styles.button} ${styles.lessonButton} ${styles.active}`}>Bestill nå</a>
           </li>
-          <li className={styles.lessonItem}>
-            <h3 className={styles.lessonItemTitle}>Fastpris</h3>
+          <li className={styles.sectionItem}>
+            <h3 className={styles.sectionItemTitle}>Fastpris</h3>
             <p className={styles.lessonItemText}>
               Med fastpris er du garantert den samme prisen per kWh i den avtalte
               perioden. Vi tilbyr fastprisavtaler for 1 år og 3 år. Uansett

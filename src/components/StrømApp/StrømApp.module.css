@@ -1,8 +1,5 @@
 @media (min-width: 1440px) {
   .heroSection {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border-radius: 16px;
   margin: auto;
   justify-content: center;

@@ -1,10 +1,61 @@
-.lessonsList {
+.section {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.lessonItem {
+.container {
+  gap: 24px;
+  width: 100%;
+}
+
+.sectiontitle {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.13;
+  letter-spacing: -0.64px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.sectiontitle span {
+  position: relative;
+}
+
+.sectiontitle span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: calc(100% - 14px);
+  width: 100%;
+  height: 12px;
+  border-radius: 8px;
+  background-color: var(--lighter-green);
+  z-index: -1;
+}
+
+.sectionSubtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 32px;
+}
+
+.sectionItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +65,11 @@
   transition: background-color 250ms var(--common-transition);
 }
 
-.lessonItem:hover {
+.sectionItem:hover {
   background-color: var(--iris);
 }
 
-.lessonItemTitle {
+.sectionItemTitle {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
@@ -43,7 +94,7 @@
 }
 
 .lessonItemPrice,
-.lessonItemTitle {
+.sectionItemTitle {
   transition: 250ms var(--common-transition);
   transition-property: opacity, color;
   text-align: center;
@@ -54,17 +105,17 @@
   transition-property: opacity, color;
 }
 
-.lessonItem:hover .lessonItemPrice,
-.lessonItem:hover .lessonItemTitle {
+.sectionItem:hover .lessonItemPrice,
+.sectionItem:hover .sectionItemTitle {
   color: var(--white);
 }
 
-.lessonItem:hover .lessonItemText {
+.sectionItem:hover .lessonItemText {
   color: var(--white);
   opacity: 0.7;
 }
 
-.lessonItem:hover .lessonButton {
+.sectionItem:hover .lessonButton {
   background-color: var(--white);
   color: var(--iris);
 }
@@ -105,14 +156,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .lessonsList {
+  .sectionList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
   }
 
-  .lessonItem {
+  .sectionItem {
     flex-basis: calc((100% - 32px) / 2);
     padding: 32px 16px;
   }
@@ -140,7 +191,7 @@
     margin-bottom: 16px;
   }
 
-  .lessonItem {
+  .sectionItem {
     flex-basis: calc((100% - 64px) / 3);
   }
 }
