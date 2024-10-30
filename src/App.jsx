@@ -7,6 +7,7 @@ import Kraftproduksjon from './components/Kraftproduksjon/Kraftproduksjon'
 import LeaveAppForm from './components/LeaveAppForm/LeaveAppForm'
 import Footer from './components/Footer/Footer'
 
+
 function App() {
   return (
     <div>
