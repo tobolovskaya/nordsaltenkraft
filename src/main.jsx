@@ -5,7 +5,6 @@ import App from './App.jsx'
 import './js/mobile-menu.js';
 
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
