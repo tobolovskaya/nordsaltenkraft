@@ -22,7 +22,6 @@
       linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%);
 }
 
-
 .container {
   gap: 24px;
   width: 100%;
@@ -78,18 +77,23 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-
   }
 }
 
-
-
 .heroText {
   font-family: inherit;
-  font-size: 38px;
-  line-height: 1.05;
   color: var(--black);
+  font-size: 48px;
+  line-height: 1.16;
   max-width: 295px;
+}
+
+@media (min-width: 1440px) {
+  .heroText {
+  font-size: 60px;
+  line-height: 1.16;
+  max-width: 564px;
+}
 }
 
 .heroKraft {
@@ -150,11 +154,6 @@
     max-width: 306px;
   }
 
-  .heroText {
-    font-size: 60px;
-    line-height: 1.16;
-    max-width: 488px;
-  }
 
   .heroCheckmark {
     margin-top: 215px;
@@ -166,18 +165,9 @@
   }
 
 
-
-
-
   .heroButton {
     margin-top: 32px;
     max-width: 306px;
-  }
-
-  .heroText {
-    font-size: 60px;
-    line-height: 1.16;
-    max-width: 564px;
   }
 
   .heroCheckmark {
