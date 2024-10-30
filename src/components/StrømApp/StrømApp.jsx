@@ -34,7 +34,7 @@ const StrømApp = () => {
       <div>
       <a href="#strøm_app">
             <img
-              src="/img/strøm_app/block_desk@1x.jpg"
+              src="/img/strøm_app/app.jpg"
               className={styles.app}
               alt="App"
             />
