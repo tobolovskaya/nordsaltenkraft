@@ -1,7 +1,5 @@
 @media (min-width: 1440px) {
   .heroSection {
-  background-image: url(../img/strøm_app/block_mob@1x.jpg),
-    linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,11 +13,6 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-}
-
-.heroSection {
-    background-image: url(../img/strøm_app/block_mob@2x.jpg),
-      linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%);
 }
 
 .container {

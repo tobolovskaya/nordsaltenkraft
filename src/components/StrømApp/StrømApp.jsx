@@ -31,6 +31,15 @@ const StrømApp = () => {
           </a>
         </div>
       </div>
+      <div>
+      <a href="#strøm_app">
+            <img
+              src="/img/strøm_app/block_desk@1x.jpg"
+              className={styles.app}
+              alt="App"
+            />
+          </a>
+      </div>
     </section>
   );
 };
