@@ -7,10 +7,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--white);
   flex-direction: row;
+  gap: 24px;
 }
 
 .mobilemenubtnicon {
@@ -65,8 +66,7 @@
 
 @media screen and (min-width: 1280px) {
   .headercontainer {
-    max-width: 1152px;
-    padding: 20px 64px;
+    width: 100%;
   }
 
   .headersection {
@@ -80,6 +80,7 @@
   .pagenavigation {
     display: flex;
     align-items: center;
+    gap: 24px;
   }
 
   .logo {
@@ -138,7 +139,6 @@
 }
 
 .socialmain {
-  margin-top: 5px;
   align-items: center;
   justify-content: center;
   display: flex;
