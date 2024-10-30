@@ -23,13 +23,6 @@ const StrømApp = () => {
         <a href="https://nordsaltenkraft.no/minside" target="_blank" className={`${styles.heroButton} ${styles.Button} ${styles.animated}`}>
           Les mer om appen
         </a>
-        <div className={styles.heroCheckmark}>
-          <a href="#footer" className={`${styles.heroCheckmarkContainer} ${styles.animated}`}>
-            <svg className={styles.heroSvg}>
-              <use xlinkHref="./img/icons.svg#icon-checkmark"></use>
-            </svg>
-          </a>
-        </div>
       </div>
       <div>
       <a href="#strøm_app">

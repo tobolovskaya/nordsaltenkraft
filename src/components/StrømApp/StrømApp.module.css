@@ -15,6 +15,12 @@
 }
 }
 
+@media (min-width: 1440px) {
+  .app {
+  max-width: 600px;
+  }
+}
+
 .container {
   gap: 24px;
   width: 100%;
@@ -87,7 +93,7 @@
   font-size: 60px;
   line-height: 1.16;
   max-width: 564px;
-  text-align: left;
+  text-align: center;
 }
 }
 
@@ -126,55 +132,6 @@
 .button:hover,
 .button:focus {
   background-color: var(--hover-iris);
-}
-
-.heroSvg {
-  width: 20px;
-  height: 20px;
-}
-
-.heroUse {
-  fill: var(--iris);
-}
-
-.heroCheckmark {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: end;
-}
-
-.heroCheckmarkContainer {
-  background-color: white;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  transition: 250ms var(--common-transition);
-  transition-property: background-color, fill;
-}
-
-@media (min-width: 1440px) {
-.heroCheckmark {
-  margin-top: 50px;
-}
-
-.heroCheckmarkContainer {
-  width: 48px;
-  height: 48px;
-}
-}
-
-.heroCheckmarkContainer:hover,
-.heroCheckmarkContainer:focus {
-  background-color: var(--iris);
-}
-
-.heroCheckmarkContainer:hover .heroUse,
-.heroCheckmarkContainer:focus .heroUse {
-  fill: var(--white);
 }
 
 @keyframes fadeInUp {
