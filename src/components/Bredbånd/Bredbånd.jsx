@@ -6,7 +6,7 @@ const Bredbånd = () => {
     <section id="bredbånd" className={styles.bredbåndSection}>
       <div className={`${styles.container} ${styles.bredbåndContent}`}>
         <h2 className={styles.sectionTitle}>Bredbånd</h2>
-        <p className={`${styles.sectionSubtitle} ${styles.subtitleBredbånd}`}>
+        <p className={styles.sectionSubtitle}>
           Nord-Salten Kraft AS tilbyr nå, i samarbeid med Trollfjord Bredbånd AS
           lynraskt internett hjem til deg med symmetriske hastigheter for alle
           behov: 70, 100, 250, 500, 1000 Mbps!

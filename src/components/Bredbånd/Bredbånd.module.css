@@ -1,3 +1,96 @@
+.bredbåndSection{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+  .bredbåndSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.bredbåndContent {
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+@media (min-width: 1440px) {
+  .bredbåndContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.sectionTitle {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.13;
+  letter-spacing: -0.64px;
+  text-align: center;
+}
+
+.sectionSubtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.bredbåndButton {
+  display: flex;
+  justify-content: center;
+  max-width: 295px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+@media (min-width: 1440px) {
+  .bredbåndButton {
+    margin-top: 32px;
+    max-width: 306px;
+  }
+}
+
+.button {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: var(--white);
+  background-color: var(--iris);
+  border-radius: 12px;
+  padding: 14px 32px;
+  border: none;
+  transition: 250ms var(--common-transition);
+  transition-property: background-color, color;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-iris);
+}
+
 .bredbåndKraft {
   color: var(--iris);
 }
@@ -17,7 +110,7 @@
 }
 
 .bredbåndItemText {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   color: var(--form-agreement-text);
   text-align: center;
@@ -45,10 +138,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .subtitleBredbånd {
-    max-width: 709px;
-  }
-
   .bredbåndList {
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,27 +170,6 @@
 
 /* For mobile devices */
 @media (max-width: 768px) {
-  .bredbåndSection {
-    background-color: var(--white);
-    max-width: 335px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-  }
-
-  .bredbåndContent {
-    flex-direction: column;
-    padding: 15px;
-    align-items: center;
-  }
-
-  .bredbåndButton {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    max-width: 295px;
-    width: 100%;
-  }
-
   .bredbåndContentImage {
     max-width: 100%;
     padding: 15px;
@@ -116,25 +184,6 @@
 
 /* For tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .bredbåndSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--white);
-    max-width: 704px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-
-  .bredbåndContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-  }
-
   .bredbåndContentImage {
     flex: 1;
     max-width: 100%;
@@ -151,25 +200,6 @@
 
 /* For desktop */
 @media (min-width: 1280px) {
-  .bredbåndSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--white);
-    background-repeat: no-repeat;
-    padding-bottom: 50px;
-    max-width: 1152px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-
-  .bredbåndContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
   .bredbåndContentImage {
     flex: 1;
     max-width: 150px;
