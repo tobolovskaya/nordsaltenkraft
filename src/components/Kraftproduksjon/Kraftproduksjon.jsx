@@ -3,8 +3,8 @@ import styles from './Kraftproduksjon.module.css';
 
 const Kraftproduksjon = () => {
   return (
-    <section id="kraftproduksjon" className={styles.aboutSection}>
-      <div className="container">
+    <section id="kraftproduksjon" className={styles.Section}>
+      <div className={styles.container}>
               <h2 className={styles.sectiontitle}>Kraftproduksjon</h2>
               <p className={styles.sectionsubtitle}>
           Nord-Salten Kraft har en sterk lokal forankring i Nord-Salten, med lokal produksjon og kompetanse, og lokalt hovedkontor. Vi er stolte av å produsere fornybar energi, og å spille en viktig samfunnsrolle i regionen.
