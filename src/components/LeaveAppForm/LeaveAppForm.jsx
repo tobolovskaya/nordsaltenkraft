@@ -3,12 +3,12 @@ import styles from './LeaveAppForm.module.css';
 
 const LeaveAppForm = () => {
   return (
-    <section id="application-form" className={styles.leaveForm}>
-      <div className="container">
-        <h2 className={`${styles.sectionTitle} ${styles.sectionAppTitle}`}>
+    <section id="application-form" className={styles.Section}>
+      <div className={styles.container}>
+        <h2 className={styles.sectiontitle}>
           Kundeservice kraftsalg
         </h2>
-        <p className={`${styles.sectionSubtitle} ${styles.subtitleApplicationForm}`}>
+        <p className={styles.sectionsubtitle}>
           Vi hjelper deg med spørsmål vedrørende strømprodukter og tilhørende faktura, adresseforandring, melding av inn/utflytting, måleravlesing og så videre.
         </p>
         <div className={styles.appFormContainer}>

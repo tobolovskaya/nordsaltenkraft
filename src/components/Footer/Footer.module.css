@@ -1,54 +1,112 @@
-.footerBlocks {
+.footer {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
-  margin-bottom: auto;
-  margin-top: auto;
-}
-
-.footer {
-  padding: 40px 0 20px;
+  padding: 20px 20px;
   background: linear-gradient(to bottom, white, #0070b8);
 }
 
-.footerContainer {
-  align-items: normal;
+@media (min-width: 1440px) {
+  .footer {
+  display: flex;
+  flex-direction: row;
+  }
+}
+
+.container{
+  gap: 15px;
+}
+
+.footerBlocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
 }
 
 .footerLogoAdrBl {
   display: flex;
-  flex-direction: block;
-  gap: 20px;
-  margin-bottom: auto;
-  margin-top: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
 }
 
-.footerLogoLink {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.footerLogoPart {
-  color: var(--green);
-  display: inline-block;
-  text-align: center;
-}
-
-.footerAdr {
+@media (min-width: 1440px) {
+  .footerLogoAdrBl {
   display: flex;
-  color: var(--black);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.29;
-  transition: color 250ms var(--common-transition);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
 }
 
-.footerAdr:hover,
-.footerAdr:focus {
-  color: var(--iris);
+.logo {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+.footerButton {
+  display: flex;
+  justify-content: center;
+  max-width: 295px;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+.footerButton {
+  max-width: 306px;
+}
+}
+
+.button {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: var(--white);
+  background-color: var(--iris);
+  border-radius: 12px;
+  padding: 14px 32px;
+  border: none;
+  transition: 250ms var(--common-transition);
+  transition-property: background-color, color;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-iris);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated {
+  opacity: 0;
+  transform: translateY(20px);
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.footerAdrList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footerAdrParagraphs {
@@ -57,30 +115,38 @@
   font-weight: 400;
   line-height: 1.28571;
   opacity: 0.9;
-  margin: 0 0 4px 0;
-}
-
-.footerAdrList {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .footerNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   list-style-type: none;
-  margin: 0;
-  margin-left: 50px;
+  justify-content: center;
   padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 1440px) {
+  .footerNav {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+}
+}
+
+.footerNavLi{
+  width: 45%;
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .footerNavLi {
+    width: 100%;
+  }
 }
 
 .footerNavLink {
-  color: var(--iris);
+  color: var(--white);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.28571;
@@ -88,42 +154,49 @@
   transition: color 250ms var(--common-transition);
 }
 
-.footerNavLink:hover {
-  color: var(--green);
+@media (min-width: 1440px) {
+  .footerNavLink {
+  color: var(--iris);
+  }
 }
 
-.footerSocialList {
-  list-style-type: none;
-  margin: 0 auto;
-  display: flex;
-  gap: 12px;
-  padding-left: 0;
-  margin-bottom: 40px;
-}
-
-.socialListLink {
-  display: flex;
+.socialmain {
   align-items: center;
   justify-content: center;
-  background-color: var(--black);
-  border-radius: 10px;
-  padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  fill: var(--white);
-  transition: fill 250ms var(--common-transition);
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  list-style: none;
 }
 
-.socialListLink:hover,
-.socialListLink:focus {
-  fill: var(--green);
+.socialwrapper {
+  width: 40px;
+  height: 40px;
+}
+
+.socialwrapper a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: var(--iris);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.socialwrapper a:hover,
+.socialwrapper a:focus {
   background-color: var(--black);
+  border-color: var(--black);
+  transition-property: background-color, color;
+  transition: var(--trns-fast);
+  cursor: pointer;
 }
 
 .footerSvgLine {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 100%;
@@ -138,95 +211,20 @@
   margin: 0;
 }
 
-.footerAgreementsList {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.footerAgreements {
   display: flex;
-  gap: 18px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
 }
 
-.footerPolicyLink {
+.footerPolicy {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28571;
   text-decoration: none;
   transition: color 250ms var(--common-transition);
-}
-
-.footerPolicyLink:hover,
-.footerPolicyLink:focus {
-  color: var(--iris);
-}
-
-@media screen and (min-width: 768px) {
-  .footer {
-    padding: 32px 0 16px;
-  }
-
-  .footerBlocks {
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 110px;
-  }
-
-  .footerLogoAdrBl {
-    gap: 32px;
-    margin-bottom: 0;
-  }
-
-  .footerSocialList {
-    margin-bottom: 0;
-  }
-
-  .footerSvgLine {
-    margin-bottom: 16px;
-  }
-
-  .footerAgreements {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer {
-    padding: 40px 0 20px;
-  }
-
-  .footerBlocks {
-    margin-bottom: 40px;
-    margin-top: auto;
-  }
-
-  .footerSvgLine {
-    margin-bottom: 23px;
-  }
-}
-
-.footerLogo,
-.footerAdress,
-.footerLinks,
-.socialMain,
-.footerSocial,
-.footerMinside {
-  margin-bottom: auto;
-  margin-top: auto;
-}
-
-.footerMinside {
-  list-style-type: none;
-  margin: 0 auto;
-  display: flex;
-  gap: 12px;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.footerButton {
-  display: inline-block;
-  text-align: center;
-  padding: 20px;
 }

@@ -4,10 +4,10 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={`${styles.container} ${styles.footerContainer}`} id="footer">
+      <div className={styles.container} id="footer">
         <div className={styles.footerBlocks}>
           <div className={styles.footerLogoAdrBl}>
-            <div className={styles.footerLogo}>
+            <div>
               <a href="#strøm_app">
                 <img
                   src="../img/header/logo-nordsaltenkraft-footer.png"
@@ -16,7 +16,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div className={styles.footerMinside}>
+            <div>
               <a
                 href="https://nordsaltenkraft.no/minside"
                 target="_blank"
@@ -26,16 +26,16 @@ const Footer = () => {
                 Min side
               </a>
             </div>
-            <div className={styles.footerAdr} id="contact-us">
-              <address className={styles.footerAdress}>
+            <div id="contact-us">
+              <address>
                 <ul className={styles.footerAdrList}>
-                  <li className={styles.footerAdrLi}>
+                  <li>
                     <p className={styles.footerAdrParagraphs}>Telefon:</p>
                     <a className={styles.footerAdr} href="tel:+4775771000">
                       75 77 10 00
                     </a>
                   </li>
-                  <li className={styles.footerAdrLi}>
+                  <li>
                     <p className={styles.footerAdrParagraphs}>Adresse:</p>
                     <a
                       className={styles.footerAdr}
@@ -46,15 +46,15 @@ const Footer = () => {
                       Strandveien 2, 8276 Ulvsvåg
                     </a>
                   </li>
-                  <li className={styles.footerAdrLi}>
+                  <li>
                     <p className={styles.footerAdrParagraphs}>Organisasjonsnummer:</p>
                     <p className={styles.footerAdr}>Nord-Salten Kraft AS: 995 114 666</p>
                   </li>
                 </ul>
               </address>
             </div>
-            <div className={styles.footerNavigation}>
-              <nav className={styles.footerLinks}>
+            <div>
+              <nav>
                 <ul className={styles.footerNav}>
                   <li className={styles.footerNavLi}>
                     <a href="#strømavtalen" className={styles.footerNavLink} aria-label="link to section strømavtalen">
@@ -91,22 +91,22 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.footerSocial}>
-            <ul className={styles.socialMain}>
-              <li className={styles.socialWrapper}>
+            <ul className={styles.socialmain}>
+              <li className={styles.socialwrapper}>
                 <a href="#">
                   <svg height="16" width="16">
                     <use href="./img/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li className={styles.socialWrapper}>
+              <li className={styles.socialwrapper}>
                 <a href="#">
                   <svg height="16" width="16">
                     <use href="./img/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li className={styles.socialWrapper}>
+              <li className={styles.socialwrapper}>
                 <a href="#">
                   <svg height="16" width="16">
                     <use href="./img/icons.svg#icon-linkedin"></use>
@@ -125,10 +125,9 @@ const Footer = () => {
           <p className={styles.footerCopyParagraphs}>
             ©2024 Nord-Salten Kraft Holding AS. Alle rettigheter forbeholdt
           </p>
-          <ul className={styles.footerAgreementsList}>
+          <ul>
             <li className={styles.footerPolicy}>
               <a
-                className={styles.footerPolicyLink}
                 href="https://nordsaltenkraft.no/personvern"
                 target="_blank"
                 rel="noopener noreferrer"
