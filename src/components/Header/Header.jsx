@@ -75,28 +75,6 @@ const Header = () => {
             </a>
           </li>
         </ul>
-        <button
-          className={styles.burgerbtn}
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-          aria-label="open menu"
-        >
-          <svg
-            className={`${styles.mobilemenubtnicon} ${styles.mobile}`}
-            width="32"
-            height="23"
-          >
-            <use href="/img/icons.svg#icon-nav"></use>
-          </svg>
-          <svg
-            className={`${styles.mobilemenubtnicon} ${styles.tablet}`}
-            width="40"
-            height="28"
-          >
-            <use href="/img/icons.svg#icon-nav_bold"></use>
-          </svg>
-        </button>
       </div>
     </header>
   );
