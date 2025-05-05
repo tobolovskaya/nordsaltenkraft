@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Bredbånd.module.css';
 
 const Bredbånd = () => {

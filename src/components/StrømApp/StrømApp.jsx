@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './StrømApp.module.css';
 
 const StrømApp = () => {
@@ -20,7 +19,7 @@ const StrømApp = () => {
         </ul>
         <br />
         <h3>Hold deg oppdatert og optimaliser ditt strømforbruk med vår app!</h3>
-        <a href="https://nordsaltenkraft.no/minside" target="_blank" className={`${styles.heroButton} ${styles.Button} ${styles.animated}`}>
+        <a href="minside" target="_blank" className={`${styles.heroButton} ${styles.Button} ${styles.animated}`}>
           Les mer om appen
         </a>
       </div>

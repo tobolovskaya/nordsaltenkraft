@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -6,7 +5,7 @@ const Header = () => {
     <header className={styles.headersection}>
       <div className={styles.headercontainer}>
         <nav className={styles.pagenavigation}>
-          <a href="#strøm_app">
+          <a href="/">
             <img
               src="/img/header/logo-nordsaltenkraft.jpg"
               className={styles.logo}
@@ -16,7 +15,7 @@ const Header = () => {
           <ul className={`${styles.pagenavlist} ${styles.list}`}>
             <li className={styles.pagenavlistitem}>
               <a
-                href="#strømavtalen"
+                href="strømavtalen"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section strømavtalen"
               >
@@ -25,7 +24,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="#bredbånd"
+                href="bredbånd"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section bredbånd"
               >
@@ -34,7 +33,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="#kraftproduksjon"
+                href="kraftproduksjon"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section kraftproduksjon"
               >
@@ -43,7 +42,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="#application-form"
+                href="application-form"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section contact us"
               >

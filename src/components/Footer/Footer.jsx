@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className={styles.footerBlocks}>
           <div className={styles.footerLogoAdrBl}>
             <div>
-              <a href="#strøm_app">
+              <a href="/">
                 <img
                   src="../img/header/logo-nordsaltenkraft-footer.png"
                   className={styles.logo}
@@ -18,7 +17,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href="https://nordsaltenkraft.no/minside"
+                href="minside"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles.button} ${styles.footerButton} ${styles.animated}`}
