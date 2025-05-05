@@ -23,7 +23,7 @@ const MinSide = () => {
           <h2 style={{ fontSize: "28px", color: "#0070b8" }}>Velkommen til Min Side</h2>
           <p style={{ fontSize: "18px" }}>
           <strong><a href="https://nsk-kraft.sks.no/" target="_blank" rel="noopener noreferrer">Klikk her</a></strong> 
-          for å komme til vår kundeportal "Min side" hvor du får god oversikt over strømavtaler og forbruk.
+          for å komme til vår kundeportal Minside hvor du får god oversikt over strømavtaler og forbruk.
             <br />
             <br />
             Ved første gangs pålogging på Min side må du registrere deg som bruker. Legg inn
