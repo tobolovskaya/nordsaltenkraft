@@ -1,3 +1,5 @@
+import AppFeatures from "../components/AppFeatures";
+
 const MinSide = () => {
   return (
     <div style={{ fontFamily: "sans-serif", lineHeight: "1.6", color: "#111" }}>
@@ -81,16 +83,22 @@ const MinSide = () => {
           margin: "auto",
         }}
       >
-        <h3 style={{ fontSize: "22px" }}>Som kunde kan du:</h3>
-        <ul style={{ paddingLeft: "20px", fontSize: "16px" }}>
-          <li>Se fakturaer og forbruk</li>
-          <li>Se strømavtale og betalingsmåte</li>
-          <li>Endre passord</li>
-          <li>Se økonomioversikt og kostnader</li>
-          <li>Flere målepunkter: bolig, hytte, bedrift</li>
-          <li>Dele tilgang med familie eller medhjelper</li>
-        </ul>
+        <h3 style={{ fontSize: "22px" }}>Som Nord-Salten Kraft kunde kan du bruke Min side til å:</h3>
+        <AppFeatures />
+        <br />
+        <p style={{ paddingLeft: "20px", fontSize: "16px" }}>
+        I tillegg kan du:
+          </p>
+          <ul style={{ marginTop: "16px", paddingLeft: "20px", fontSize: "16px" }}>
+            <li>ha flere målepunkter på samme Min side</li>
+            <ol>boligen, hytta, sommerhuset</ol>
+            <ol>bedriftsavtaler</ol>
+            <br />
+            <li>legge til en venn eller familiemedlem som du vil hjelpe med å holde oversikt eller administrere strømavtalen for andre</li>
+          </ul>
       </section>
+
+      
 
       {/* FLERE BRUKERE */}
       <section
@@ -127,3 +135,5 @@ const MinSide = () => {
 };
 
 export default MinSide;
+
+
