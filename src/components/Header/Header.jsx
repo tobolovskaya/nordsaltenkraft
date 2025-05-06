@@ -42,6 +42,15 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
+                href="/sponsing"
+                className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
+                aria-label="link to section sponsing"
+              >
+                Sponsing
+              </a>
+            </li>
+            <li className={styles.pagenavlistitem}>
+              <a
                 href="/application-form"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section contact us"

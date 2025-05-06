@@ -8,6 +8,7 @@ import LeaveAppForm from './components/LeaveAppForm/LeaveAppForm'
 import Footer from './components/Footer/Footer'
 
 import MinSide from './pages/MinSide'
+import Sponsing from './pages/Sponsing/Sponsing'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/kraftproduksjon" element={<Kraftproduksjon />} />
         <Route path="/application-form" element={<LeaveAppForm />} />
         <Route path="/minside" element={<MinSide />} /> 
+        <Route path="/sponsing" element={<Sponsing />} />
       </Routes>
       <Footer />
       
