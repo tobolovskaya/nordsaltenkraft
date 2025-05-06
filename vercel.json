@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+      { "source": "/strømavtalen", "destination": "/" },
+      { "source": "/bredbånd", "destination": "/" },
+      { "source": "/kraftproduksjon", "destination": "/" },
+      { "source": "/application-form", "destination": "/" },
+      { "source": "/minside", "destination": "/" }
+    ]
+  }
+  

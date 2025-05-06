@@ -15,9 +15,9 @@ const Header = () => {
           <ul className={`${styles.pagenavlist} ${styles.list}`}>
             <li className={styles.pagenavlistitem}>
               <a
-                href="strømavtalen"
+                href="stromavtalen"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
-                aria-label="link to section strømavtalen"
+                aria-label="link to section stromavtalen"
               >
                 Bestill strøm
               </a>

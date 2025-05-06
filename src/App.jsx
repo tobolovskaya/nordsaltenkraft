@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header/Header';
 import StrømApp from './components/StrømApp/StrømApp';
-import Strømavtalen from './components/Strømavtalen/Strømavtalen'
+import Stromavtalen from './components/Stromavtalen/Stromavtalen'
 import Bredbånd from './components/Bredbånd/Bredbånd'
 import Kraftproduksjon from './components/Kraftproduksjon/Kraftproduksjon'
 import LeaveAppForm from './components/LeaveAppForm/LeaveAppForm'
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<StrømApp />} />
-        <Route path="/strømavtalen" element={<Strømavtalen />} />
+        <Route path="/stromavtalen" element={<Stromavtalen />} />
         <Route path="/bredbånd" element={<Bredbånd />} />
         <Route path="/kraftproduksjon" element={<Kraftproduksjon />} />
         <Route path="/application-form" element={<LeaveAppForm />} />

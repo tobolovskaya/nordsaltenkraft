@@ -1,8 +1,10 @@
-import styles from './Strømavtalen.module.css';
+import styles from './Stromavtalen.module.css';
+import Prisliste from "../Prisliste";
 
-const Strømavtalen = () => {
+const Stromavtalen = () => {
   return (
-    <section id="strømavtalen" className={styles.section}>
+    <div>
+    <section id="stromavtalen" className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.sectiontitle}>
           Bestill <span>strømavtalen</span>
@@ -64,7 +66,11 @@ const Strømavtalen = () => {
         </p>
       </div>
     </section>
+    <section className={styles.prislisteWrapper}>
+  <Prisliste />
+</section>
+    </div>
   );
 };
 
-export default Strømavtalen;
+export default Stromavtalen;
