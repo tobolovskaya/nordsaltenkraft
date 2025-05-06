@@ -56,12 +56,12 @@ const Footer = () => {
               <nav>
                 <ul className={styles.footerNav}>
                   <li className={styles.footerNavLi}>
-                    <a href="#strømavtalen" className={styles.footerNavLink} aria-label="link to section strømavtalen">
+                    <a href="#stromavtalen" className={styles.footerNavLink} aria-label="link to section stromavtalen">
                       Bestill strøm
                     </a>
                   </li>
                   <li className={styles.footerNavLi}>
-                    <a href="#bredbånd" className={styles.footerNavLink} aria-label="link to section bredbånd">
+                    <a href="#bredband" className={styles.footerNavLink} aria-label="link to section bredband">
                       Bredbånd
                     </a>
                   </li>
