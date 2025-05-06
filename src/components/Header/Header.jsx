@@ -15,7 +15,7 @@ const Header = () => {
           <ul className={`${styles.pagenavlist} ${styles.list}`}>
             <li className={styles.pagenavlistitem}>
               <a
-                href="stromavtalen"
+                href="/stromavtalen"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section stromavtalen"
               >
@@ -24,7 +24,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="bredband"
+                href="/bredband"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section bredband"
               >
@@ -33,7 +33,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="kraftproduksjon"
+                href="/kraftproduksjon"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section kraftproduksjon"
               >
@@ -42,7 +42,7 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="application-form"
+                href="/application-form"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
                 aria-label="link to section contact us"
               >
