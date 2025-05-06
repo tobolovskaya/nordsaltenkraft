@@ -1,4 +1,7 @@
 import AppFeatures from "../components/AppFeatures";
+import LoginStepsMS from "../components/LoginStepsMS";
+import LoginSteps from "../components/LoginSteps";
+
 
 const MinSide = () => {
   return (
@@ -23,20 +26,21 @@ const MinSide = () => {
         />
         <div style={{ flex: "1 1 300px", maxWidth: "600px" }}>
           <h2 style={{ fontSize: "28px", color: "#0070b8" }}>Velkommen til Min Side</h2>
+          <br />
           <p style={{ fontSize: "18px" }}>
-          <strong><a href="https://nsk-kraft.sks.no/" target="_blank" rel="noopener noreferrer">Klikk her</a></strong> 
-          for å komme til vår kundeportal Minside hvor du får god oversikt over strømavtaler og forbruk.
+          <strong><a href="https://nsk-kraft.sks.no/" target="_blank" rel="noopener noreferrer">Klikk her</a></strong> for å komme til vår kundeportal Minside hvor du får god oversikt over strømavtaler og forbruk.
             <br />
             <br />
-            Ved første gangs pålogging på Min side må du registrere deg som bruker. Legg inn
+            Velg et passord som du bekrefter. Du vil da få tilsendt en verifikasjonslink, klikk på linken og du er inne på Min side.
           </p>
           <ul style={{ marginTop: "16px", paddingLeft: "20px", fontSize: "16px" }}>
-            <li>Kundenummer (dette finner du på strømfakturaen)</li>
-            <li>Målernummer (dette finner du på strømfakturaen)</li>
-            <li>Din e-post adresse</li>
+            <li>Du har samme brukernavn og passord både på Min side og appen MinKraft fra Nord-Salten Kraft. Dersom ditt brukernavn er din e-postadresse legger du inn den og skriver inn ditt passord. Dersom ditt brukernavn er ditt mobilnummer legger du inn det og skriver inn ditt passord.</li>
+            <br />
+            <li>Har du ikke laget deg bruker på Min side kan du opprette bruker på app.</li>
           </ul>
         </div>
       </section>
+      <LoginStepsMS />
 
       {/* СКАЧАТЬ APP */}
       <section
@@ -46,34 +50,38 @@ const MinSide = () => {
           backgroundColor: "#f5f7fa",
         }}
       >
-        <h3 style={{ fontSize: "24px", marginBottom: "16px" }}>Last ned MinKraft</h3>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "20px",
-            flexWrap: "wrap",
-          }}
-        >
-          <a href="#">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"
-              alt="App Store"
-              style={{ height: "60px" }}
-            />
-          </a>
-          <a href="#">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-              alt="Google Play"
-              style={{ height: "60px" }}
-            />
-          </a>
-        </div>
+        <h3 style={{ fontSize: "24px", marginBottom: "16px" }}>Last ned appen MinKraft</h3>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    flexWrap: "wrap",
+  }}
+>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://nordsaltenkraft.no/sites/n/nordsaltenkraft.no/files/2025/05/Last%20ned%20fra%20AppStore_1.png"
+      alt="App Store"
+      style={{ maxWidth: "160px", height: "45px" }}
+    />
+  </a>
+  <a href="#" target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://nordsaltenkraft.no/sites/n/nordsaltenkraft.no/files/2025/05/last_ned_fra_googleplay.png"
+      alt="Google Play"
+      style={{ height: "45px" }}
+    />
+  </a>
+</div>
+
         <p style={{ marginTop: "16px", fontSize: "16px" }}>
           Mobilappen fungerer like godt på iPhone som på Android.
         </p>
       </section>
+      <LoginSteps />
+      
+
 
       {/* ФУНКЦИИ ДЛЯ КЛИЕНТА */}
       <section
@@ -110,24 +118,23 @@ const MinSide = () => {
         }}
       >
         <h3 style={{ fontSize: "22px" }}>Flere brukere</h3>
-        <p style={{ fontSize: "16px" }}>Slik gir du flere tilgang:</p>
+        <p style={{ fontSize: "16px" }}>Dersom du allerede har laget en bruker på Min side og ønsker at flere skal ha tilgang, så kan du enkelt legge til dette.</p>
         <ol style={{ paddingLeft: "20px", fontSize: "16px" }}>
-          <li>Gå til Min side → Brukerkontoer</li>
-          <li>Klikk “Ny innlogging”</li>
-          <li>Skriv inn e-post, mottaker får verifiseringslink</li>
+          <li>Gå inn på Min side - Min profil - Brukerkontoer og kunderelasjoner.</li>
+          <li>Klikk for å legge til Ny innlogging.</li>
+          <li>Skriv inn e-postadresse til den nye innloggingen. En e-post med en verifikasjonslink vil bli sendt til den oppgitte e-posten.</li>
         </ol>
+        <p style={{ fontSize: "16px" }}>Vedkommende som har mottatt linken kan da opprette sin egen bruker med eget passord og logge seg inn på vanlig måte.</p>
       </section>
 
       {/* КОНТАКТЫ */}
       <section style={{ padding: "40px 20px", textAlign: "center" }}>
-        <h3 style={{ fontSize: "22px" }}>Kontakt oss</h3>
+        <h3 style={{ fontSize: "22px" }}>Kontakt oss gjerne!</h3>
         <p style={{ fontSize: "16px" }}>
-          📧{" "}
-          <a href="mailto:kundeservice@nordsaltenkraft.no">
-            kundeservice@nordsaltenkraft.no
+        Har du spørsmål, ta kontakt med oss på e-post <a href="mailto:kundeservice@nordsaltenkraft.no">kundeservice@nordsaltenkraft.no
           </a>
           <br />
-          📞 75 77 10 00
+          eller telefon 75 77 10 00
         </p>
       </section>
     </div>
