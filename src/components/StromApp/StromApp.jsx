@@ -1,8 +1,8 @@
-import styles from './StrømApp.module.css';
+import styles from './StromApp.module.css';
 
-const StrømApp = () => {
+const StromApp = () => {
   return (
-    <section id="strøm_app" className={styles.heroSection}>
+    <section id="strom_app" className={styles.heroSection}>
       <div className={`${styles.container} ${styles.heroContent}`}>
         <h1 className={`${styles.heroText} ${styles.animated}`}>
           Strøm App - <span className={styles.heroKraft}>MinKraft</span>
@@ -24,7 +24,7 @@ const StrømApp = () => {
         </a>
       </div>
       <div>
-      <a href="#strøm_app">
+      <a href="#strom_app">
             <img
               src="/img/strøm_app/app.jpg"
               className={styles.app}
@@ -36,4 +36,4 @@ const StrømApp = () => {
   );
 };
 
-export default StrømApp;
+export default StromApp;

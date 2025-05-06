@@ -1,9 +1,9 @@
 
-import styles from './Bredbånd.module.css';
+import styles from './Bredband.module.css';
 
-const Bredbånd = () => {
+const Bredband = () => {
   return (
-    <section id="bredbånd" className={styles.bredbåndSection}>
+    <section id="bredband" className={styles.bredbåndSection}>
       <div className={`${styles.container} ${styles.bredbåndContent}`}>
         <h2 className={styles.sectionTitle}>Bredbånd</h2>
         <p className={styles.sectionSubtitle}>
@@ -96,4 +96,4 @@ const Bredbånd = () => {
   );
 };
 
-export default Bredbånd;
+export default Bredband;

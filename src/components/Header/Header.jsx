@@ -24,9 +24,9 @@ const Header = () => {
             </li>
             <li className={styles.pagenavlistitem}>
               <a
-                href="bredbånd"
+                href="bredband"
                 className={`${styles.pagenavlistlink} ${styles.linkunderlined}`}
-                aria-label="link to section bredbånd"
+                aria-label="link to section bredband"
               >
                 Bredbånd
               </a>
