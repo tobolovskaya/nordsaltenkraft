@@ -56,17 +56,17 @@ const Footer = () => {
               <nav>
                 <ul className={styles.footerNav}>
                   <li className={styles.footerNavLi}>
-                    <a href="#stromavtalen" className={styles.footerNavLink} aria-label="link to section stromavtalen">
+                    <a href="/stromavtalen" className={styles.footerNavLink} aria-label="link to section stromavtalen">
                       Bestill strøm
                     </a>
                   </li>
                   <li className={styles.footerNavLi}>
-                    <a href="#bredband" className={styles.footerNavLink} aria-label="link to section bredband">
+                    <a href="/bredband" className={styles.footerNavLink} aria-label="link to section bredband">
                       Bredbånd
                     </a>
                   </li>
                   <li className={styles.footerNavLi}>
-                    <a href="#kraftproduksjon" className={styles.footerNavLink} aria-label="link to section kraftproduksjon">
+                    <a href="/kraftproduksjon" className={styles.footerNavLink} aria-label="link to section kraftproduksjon">
                       Kraftproduksjon
                     </a>
                   </li>
@@ -81,7 +81,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className={styles.footerNavLi}>
-                    <a href="#application-form" className={styles.footerNavLink} aria-label="link to section contact us">
+                    <a href="/application-form" className={styles.footerNavLink} aria-label="link to section contact us">
                       Kontakt oss
                     </a>
                   </li>
