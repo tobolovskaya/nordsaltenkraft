@@ -28,6 +28,12 @@ const boardMembers = [
     img: "/",
   },
   {
+    name: "Helge Egil Wågø Albertsen",
+    role: "daglig leder",
+    deputy: "/",
+    img: "/",
+  },
+  {
     name: "Lisbeth Korneliussen",
     role: "Styremedlem",
     deputy: "Svein Helge Nøstdal",
