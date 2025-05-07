@@ -5,10 +5,12 @@ import Stromavtalen from './components/Stromavtalen/Stromavtalen'
 import Bredband from './components/Bredband/Bredband'
 import Kraftproduksjon from './components/Kraftproduksjon/Kraftproduksjon'
 import LeaveAppForm from './components/LeaveAppForm/LeaveAppForm'
+import Styret from './components/Styret/Styret'
 import Footer from './components/Footer/Footer'
 
 import MinSide from './pages/MinSide'
 import Sponsing from './pages/Sponsing/Sponsing'
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route path="/application-form" element={<LeaveAppForm />} />
         <Route path="/minside" element={<MinSide />} /> 
         <Route path="/sponsing" element={<Sponsing />} />
+        <Route path="/styret" element={<Styret />} />
       </Routes>
       <Footer />
       

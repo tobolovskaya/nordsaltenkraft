@@ -71,6 +71,27 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className={styles.footerNavLi}>
+                    <a href="/application-form" className={styles.footerNavLink} aria-label="link to section contact us">
+                      Kontakt oss
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <nav>
+                <ul className={styles.footerNav}>
+                  <li className={styles.footerNavLi}>
+                    <a href="/sponsing" className={styles.footerNavLink} aria-label="link to section sponsing">
+                      Sponsing
+                    </a>
+                  </li>
+                  <li className={styles.footerNavLi}>
+                    <a href="/styret" className={styles.footerNavLink} aria-label="link to section styret">
+                      Styret
+                    </a>
+                  </li>
+                  <li className={styles.footerNavLi}>
                     <a href="https://nordsaltenkraft.no/nyheter" target="_blank" rel="noopener noreferrer" className={styles.footerNavLink} aria-label="link to section nyheter">
                       Nyheter
                     </a>
@@ -78,11 +99,6 @@ const Footer = () => {
                   <li className={styles.footerNavLi}>
                     <a href="https://nordsaltenkraft.no/ledigstilling" target="_blank" rel="noopener noreferrer" className={styles.footerNavLink} aria-label="link to section ledig stilling">
                       Ledig Stilling
-                    </a>
-                  </li>
-                  <li className={styles.footerNavLi}>
-                    <a href="/application-form" className={styles.footerNavLink} aria-label="link to section contact us">
-                      Kontakt oss
                     </a>
                   </li>
                 </ul>
