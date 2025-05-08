@@ -24,6 +24,7 @@
   .applySection {
     max-width: 1000px;
     margin: 0 auto 60px;
+    margin-top: 20px;
     background: #ffffff;
     padding: 40px;
     border-radius: 8px;

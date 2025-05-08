@@ -6,19 +6,10 @@ const Sponsing = () => {
       <section className={styles.hero}>
         <h1>Sponsing av lokale aktiviteter</h1>
         <p>
-          NSK ønsker å føre en del av selskapets inntekter tilbake til samfunnet gjennom sponsing
-          av lokale aktiviteter. Vi fokuserer på tiltak som gir trygge oppvekstvilkår for barn og unge,
-          og tiltak som inspirerer unge til å bosette seg og bidra til vekst i regionen.
+        NSK ønsker å føre en del av selskapets inntekter tilbake til samfunnet gjennom sponsing av lokale aktiviteter. 
+        Vi ønsker å bidra til en positiv utvikling i Nord-Salten, og fokuserer særlig på tiltak som gir trygge 
+        oppvekstvilkår for barn og unge, og tiltak som inspirerer unge til å bosette seg og bidra til utvikling og vekst i regionen.
         </p>
-      </section>
-
-      <section className={styles.applySection}>
-        <h2>Søk om sponsorstøtte</h2>
-        <p>
-          Vi prioriterer tiltak innen idrett, kultur, utdanning og ideelle organisasjoner. Sponsorat skal
-          gi verdi tilbake til samfunnet og være i tråd med NSKs verdier.
-        </p>
-        <a className={styles.button} href="/soknad">Send inn søknad</a>
       </section>
 
       <section className={styles.supportedSection}>
@@ -86,6 +77,15 @@ const Sponsing = () => {
     </div>
   </div>
 </section>
+
+      <section className={styles.applySection}>
+        <h2>Søk om sponsorstøtte</h2>
+        <p>
+          Vi prioriterer tiltak innen idrett, kultur, utdanning og ideelle organisasjoner. Sponsorat skal
+          gi verdi tilbake til samfunnet og være i tråd med NSKs verdier.
+        </p>
+        <a className={styles.button} href="/soknad">Send inn søknad</a>
+      </section>
 
     </div>
   );

@@ -22,23 +22,42 @@ const Prisliste = () => {
             <th style={{ padding: "12px", borderBottom: "2px solid #ccc" }}>Avtaletype</th>
             <th style={{ padding: "12px", borderBottom: "2px solid #ccc" }}>Fastbeløp</th>
             <th style={{ padding: "12px", borderBottom: "2px solid #ccc" }}>Pris</th>
-            <th style={{ padding: "12px", borderBottom: "2px solid #ccc" }}>Vilkår</th>
             <th style={{ padding: "12px", borderBottom: "2px solid #ccc" }}>Papirfakturagebyr</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style={{ padding: "12px", borderBottom: "1px solid #eee" }}>NSK Spot</td>
-            <td style={{ padding: "12px" }}>Timespot</td>
-            <td style={{ padding: "12px" }}>55 kr/mnd ekskl. mva<br />68,75 kr/mnd inkl. mva</td>
-            <td style={{ padding: "12px" }}>timespot + 6,90 øre/kWh ekskl. mva<br />8,63 øre/kWh inkl. mva</td>
-            <td style={{ padding: "12px" }}>
-              <a href="https://nordsaltenkraft.no/?id=357476535&Article=96" style={{ color: "#0070b8" }}>Gå til vilkår</a>
-            </td>
-            <td style={{ padding: "12px" }}>6 kr ekskl. mva<br />7,5 kr inkl. mva</td>
+            <td style={{ padding: "12px", borderBottom: "1px solid #eee" }}>Spotpris</td>
+            <td style={{ padding: "12px" }}>Spotpris time for time</td>
+            <td style={{ padding: "12px" }}>0 kr</td>
+            <td style={{ padding: "12px" }}>3,99 øre/kWh ekslk mva<br />4,99 øre/kWh inkl mva</td>
+            <td style={{ padding: "12px" }}>9,75 kr</td>
           </tr>
 
-          {/* Добавь остальные строки аналогично */}
+          <tr>
+            <td style={{ padding: "12px", borderBottom: "1px solid #eee" }}>Lokalkraft</td>
+            <td style={{ padding: "12px" }}>Standard variabel</td>
+            <td style={{ padding: "12px" }}>0 kr</td>
+            <td style={{ padding: "12px" }}>7,90 øre/kWh ekskl mva<br />9,88 øre/kWh inkl mva</td>
+            <td style={{ padding: "12px" }}>9,75 kr</td>
+          </tr>
+
+          <tr>
+            <td style={{ padding: "12px", borderBottom: "1px solid #eee" }}>Fastpris 1 år</td>
+            <td style={{ padding: "12px" }}>Fastpris</td>
+            <td style={{ padding: "12px" }}>0 kr</td>
+            <td style={{ padding: "12px" }}>31,90 øre/kWh ekskl mva<br />39,88 øre/kWh inkl mva</td>
+            <td style={{ padding: "12px" }}>9,75 kr</td>
+          </tr>
+
+          <tr>
+            <td style={{ padding: "12px", borderBottom: "1px solid #eee" }}>Fastpris 3 år</td>
+            <td style={{ padding: "12px" }}>Fastpris</td>
+            <td style={{ padding: "12px" }}>0 kr</td>
+            <td style={{ padding: "12px" }}>37,90 øre/kWh ekskl mva<br />47,38 øre/kWh inkl mva</td>
+            <td style={{ padding: "12px" }}>9,75 kr</td>
+          </tr>
+
         </tbody>
       </table>
     </div>
