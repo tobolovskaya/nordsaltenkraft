@@ -5,9 +5,10 @@
     { "source": "/bredband", "destination": "/" },
     { "source": "/kraftproduksjon", "destination": "/" },
     { "source": "/application-form", "destination": "/" },
-    { "source": "/minside", "destination": "/" }
+    { "source": "/minside", "destination": "/" },
     { "source": "/sponsing", "destination": "/" }
   ]
 }
+
 
   
